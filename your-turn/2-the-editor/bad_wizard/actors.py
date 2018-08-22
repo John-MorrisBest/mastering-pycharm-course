@@ -35,6 +35,9 @@ class Wizard(Creature):
             print("The wizard has been DEFEATED!!!")
             return False
 
+    def wake_up(self):
+        print("Gandaf awakes")
+
 
 class SmallAnimal(Creature):
     def get_defensive_roll(self):
